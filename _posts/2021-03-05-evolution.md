@@ -4,6 +4,7 @@ layout: post
 description: Evolution is a central concept in biology. In a very basic level, it is long process of producing imperfect copies of genetic material and natural selection of the ones that were lucky enough to survive in bigger numbers in next generations.
 categories: []
 title: Evolution
+image: https://content.geneticliteracyproject.org/wp-content/uploads/elementor/thumbs/evolution-species-natural-selection-221210617-ntlfbdj1ty5x6xn10ct7a3v39x0mgnfoi2gi2ilm1e.jpg
 ---
 
 ## Imperfect copies as driver of evolution

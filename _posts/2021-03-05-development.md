@@ -4,11 +4,14 @@ layout: post
 description: Genetic information (DNA) of the organisms stays more or slightly less the same during whole life or organism. But cell are behaving differently in different environment and in different stages of life. Multicellular organisms have the same DNA in each cell and we know that we can find many very different cells these organisms (as ourselves). There are multiple mechanisms in cell taking care of this behaviour.
 categories: []
 title: Regulation and development
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Final_stem_cell_differentiation_%281%29.svg/2560px-Final_stem_cell_differentiation_%281%29.svg.png
 ---
 
 ## Regulation
 
 There are many types of cells with many different functions in multicellular organisms (just thinks about skin cells, red blood cells or neurone cell), but all these cells share the same DNA. There are multiple layers how DNA is guarding function of cell.
+
+![types of cells](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Final_stem_cell_differentiation_%281%29.svg/2560px-Final_stem_cell_differentiation_%281%29.svg.png){:height="70%" width="70%"}
 
 Sequence of DNA is the base layer. But on top of DNA there are layers of regulation that says what parts of DNA should be active, which parts should be suppressed and how to decide in any point in time. This regulatory mechanism is big part of what biology and science is trying to figure out.
 
