@@ -4,6 +4,7 @@ layout: post
 description: Central dogma of molecular biology is telling about processes of transferring genetic information in cell.
 categories: []
 title: Central dogma of molecular biology
+image: https://ib.bioninja.com.au/_Media/central-dogma_med.jpeg
 ---
 
 ![central dogma of molecular biology](https://ib.bioninja.com.au/_Media/central-dogma_med.jpeg)

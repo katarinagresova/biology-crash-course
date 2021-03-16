@@ -25,7 +25,7 @@ We can take a bunch of chemicals and put them in a jar to make a system, that is
 Homeostasis is ability of living organisms to maintain their ideal internal conditions, such as temperature, pH, ...
 
 ### 4. Cells
-At least life that we know on Earth (in a way biology understand life and define it) is organised in this units of structure called [cells]({% post_url 2021-03-11-cells %}).
+At least life that we know on Earth (in a way biology understand life and define it) is organised in this units of structure called [cells]({% post_url 2021-03-16-cells %}).
 
 It might not be necessary for all life that could potentially exist to be packed in cells. But if we are talking about life that came from Earth's conditions, we find it organises in cells.
 
