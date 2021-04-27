@@ -19,4 +19,4 @@ Transcription is the production of RNA from DNA. But we are not transcribing the
 
 ## Translation
 
-Translation is production of RNA from DNA. Notes crated by transcription can float away into other parts of cell where is machinery that can read text wrote on it. This text is like instruction for putting molecules together and building things.
+Translation is production of protein from RNA. Notes crated by transcription can float away into other parts of cell where is machinery that can read text wrote on it. This text is like instruction for putting molecules together and building things.
