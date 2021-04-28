@@ -9,7 +9,7 @@ image:
 
 DNA is double stranded long molecule that is made out of 4 nucleotides - A, T, C, G. Messenger RNA (mRNA) is shorter single stranded molecule also made out 4 nucleotides, but this time it is - A, U, C, G. This U (uracil) nucleotide is RNA equivalent to T (thymine) nucleotide in DNA. Proteins are also single stranded molecules but they are not made out of nucleotides. This is why process of producing protein based on RNA is called translation - we are translating into a completely different kind of chemical. Building blocks of proteins are called amino acids. There are 20 different amino acids that are used in living organisms that we know. There is many more amino acids as chemical molecules, but they're 20 that are used in in life.
 
-![](https://rwu.pressbooks.pub/app/uploads/sites/29/2020/07/image2-1.jpg){:height="90%" width="90%"}
+![](http://www.zo.utexas.edu/faculty/sjasper/images/17.3.gif){:height="60%" width="60%"}
 
 ## Genetic code
 
@@ -38,23 +38,27 @@ There are three stop codons - UAA, UAG and UGA - that encode the end of the prot
 
 ## Molecular process of translation
 
-Codons of mRNA are translated into amino acid of protein by [tRNA]({% post_url 2021-04-10-transcription %}#trna) molecules. tRNA molecule contains an anticodon, what is three-letter sequence complementary to the target codon sequence. This tRNA molecule also contains on itself an amino acid corresponding to matched codon. Whole process of translation consists of three phases and is guided by organelle called [ribosome]({% post_url 2021-03-16-cells %}#ribosome). Ribosome is made out of RNA and protein and this organelle has two pieces - small and large subunit. These subunits can exists independently, but they have to come together to do the translation.
+Codons of mRNA are translated into amino acid of protein by [tRNA]({% post_url 2021-04-10-transcription %}#trna) molecules. tRNA molecule contains an anticodon, what is three-letter sequence complementary to the target codon sequence. This tRNA molecule also contains on itself an amino acid corresponding to matched codon. Process of translation is guided by organelle called [ribosome]({% post_url 2021-03-16-cells %}#ribosome). Ribosome is made out of RNA and protein and this organelle has two pieces - small and large subunit. These subunits can exists independently, but they have to come together to do the translation.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Peptide_syn.svg/1200px-Peptide_syn.svg.png){:height="70%" width="70%"}
 
-### 1. Initiation
+### Phases of translation
+
+Whole process of translation consists of three phases:
+
+**1. Initiation**
 
 In the phase of initiation of translation, small subunit of ribosome binds close to the start codon. The next step is that tRNA identifies AUG start codon, binds there and stabilizes binding of small ribosomal subunit to mRNA. After this, large ribosomal subunit can also binds there and make the whole ribosome active.
 
 ![](https://cdn.kastatic.org/ka-perseus-images/ae16d87eace538e032b1cf5ac3adbb7335a86fb2.png){:height="50%" width="50%"}
 
-### 2. Elongation
+**2. Elongation**
 
 During the elongation phase, the ribosome will start moving through mRNA sequence by three nucleotides. Inside the large subunit of ribosome, there are three positions called A (aminoacyl), P (peptidyl) and E (exit). The A is an acceptor side and this is where the new tRNA that identifies the triplet comes in. The P is peptidyl site and the protein (peptide) that is being created is attached here. The E is an exit site and it contains tRNA that already given its amino acid and is ready to be discarded and recycled. The whole job of the ribosome is to create a chemical bond between amino acid in the A position and amino acid in already created chain, and then shift by three nucleotides. This shifting will discard tRNA in E position and create space for new tRNA in A position.
 
 ![](https://ib.bioninja.com.au/_Media/translation-elongation_med.jpeg){:height="80%" width="80%"}
 
-### 3. Termination
+**3. Termination**
 
 Once the ribosome reaches the end, stop codon is identified by special tRNA. This tRNA is pretty similar to all the other tRNAs, only it doesn't have an amino acid associated with it. There is no other amino acid to add to the chain and when ribosome moves protein chain is released because there is nothing anchoring it. Two subunits of ribosome get detached and translation ends here.
 
@@ -63,3 +67,28 @@ Once the ribosome reaches the end, stop codon is identified by special tRNA. Thi
 The whole molecular process of translation is visualised in following video.
 
 {% include youtube.html content='https://youtu.be/TfYf_rPWUdY' %}
+
+### Polyribosome
+
+
+So far we were talking about one ribosome on one mRNA, but the reality is that mRNA generally gets translated by many ribosomes at the same time. A polyribosome (or polysome or ergosome) is a group of ribosomes bound to an mRNA molecule like “beads” on a “thread”. It consists of a complex of an mRNA molecule and two or more ribosomes that act to translate mRNA instructions into polypeptides.
+
+![](http://www.zo.utexas.edu/faculty/sjasper/images/17.20.jpg)
+
+## Quality control
+
+There are two main mechanisms of quality control associated with translation that cancan message the cell about problem with mRNA that is being actively translated. These two mechanisms will stop translation and send this mRNA to be destroyed and recycled. They kind of have the same idea, but they are kind of the opposite of each other.
+
+### Nonsense-mediated decay
+
+Nonsense-mediated mRNA decay (NMD) is a surveillance pathway that exists in all eukaryotes. Its main function is to reduce errors in gene expression by eliminating mRNA transcripts that contain premature stop codons. Premature stop codon causes the protein to be shortened, which may or may not be functional, depending on the severity of what is not translated.
+
+Nonsense-mediated decay happens when through mutation (or some other change), an early termination (stop) codon gets created in the mRNA sequence. Translation mechanism can sense this and it targets this mRNA to be degraded and recycled.
+
+How can translation mechanism know that it reached premature stop codon that shouldn't be there? After the stop codon there is 3-prime UTR which could be as long as the as the coding sequence, so looking at length of remaining sequence is not helpful.
+
+What the ribosome does, other than creating a protein, is that it clears out all the RNA binding proteins that are bound on the mRNA. One of RNA binding proteins that are bound to mRNA is exon junction complex. When introns are removed from RNA, in process called splicing, this marker protein - exon junction complex - is placed there. Mature mRNA ready to be translated contains exon junction complex on each site where intron was removed. As the ribosome translates the mRNA, it strips the mRNA of these proteins. If some of these proteins have stayed on mRNA after the first round of translation then a nonsense-mediated decay is triggered because it means that the ribosome didn't reach all the way to the point where the last splicing happened.
+
+![](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fgb-2004-5-2-r8/MediaObjects/13059_2003_Article_812_Fig1_HTML.jpg)
+
+### Nonstop-mediated decay
