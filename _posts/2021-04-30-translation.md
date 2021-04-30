@@ -7,7 +7,7 @@ title: Translation
 image:
 ---
 
-DNA is double stranded long molecule that is made out of 4 nucleotides - A, T, C, G. Messenger RNA (mRNA) is shorter single stranded molecule also made out 4 nucleotides, but this time it is - A, U, C, G. This U (uracil) nucleotide is RNA equivalent to T (thymine) nucleotide in DNA. Proteins are also single stranded molecules but they are not made out of nucleotides. This is why process of producing protein based on RNA is called translation - we are translating into a completely different kind of chemical. Building blocks of proteins are called amino acids. There are 20 different amino acids that are used in living organisms that we know. There is many more amino acids as chemical molecules, but they're 20 that are used in in life.
+DNA is long double stranded molecule that is made out of 4 nucleotides - A, T, C, G. Messenger RNA (mRNA) is shorter single stranded molecule also made out 4 nucleotides, but this time it is A, U, C, G. This U (uracil) nucleotide is RNA equivalent to T (thymine) nucleotide in DNA. Proteins are also single stranded molecules but they are not made out of nucleotides. This is why process of producing protein based on RNA is called translation - we are translating into a completely different kind of chemical. Building blocks of proteins are called amino acids. There are 20 different amino acids that are used in living organisms that we know. There is many more amino acids as chemical molecules, but they're 20 that are used in in life.
 
 ![](http://www.zo.utexas.edu/faculty/sjasper/images/17.3.gif){:height="60%" width="60%"}
 
@@ -27,14 +27,19 @@ The fact that this code has three positions and the first two positions seem to 
 
 ### Universality
 
-The genetic code is universal. With a few exceptions, virtually all species use the same genetic code for protein synthesis. Conservation of codons means that mRNA encoding the globin protein in horses could be transferred to a tulip cell, and the tulip would synthesize horse globin. That there is only one genetic code is powerful evidence that all of life on Earth shares a common origin, especially considering that there are about 1084 possible combinations of 20 amino acids and 64 triplet codons.
+The genetic code is universal. With a few exceptions, virtually all species use the same genetic code for protein synthesis. Conservation of codons means that mRNA encoding the globin protein in horses could be transferred to a tulip cell, and the tulip would synthesize horse globin. That there is only one genetic code is powerful evidence that all of life on Earth shares a common origin, especially considering that there are about 1084 possible combinations of mapping between 20 amino acids and 64 triplet codons.
 
 ### Special codons
 
-Codon AUG encodes amino acid Methionine, but it also has its second role as the start codon. All RNA sequences encoding for proteins start with AUG. There can be other AUGs within the sequence that encode for amino acid Methionine.
+On top of encoding for amino acids, there are also some regulatory signals encoded in mRNA. Codon AUG encodes amino acid Methionine, but it also has its second role as the start codon. All RNA sequences encoding for proteins start with AUG. There can be other AUGs within the sequence that encode for amino acid Methionine. Second very important regulatory signal is stop codon. There are three stop codons - UAA, UAG and UGA - that encode the end of the protein. No amino acid is associated with them.
 
-There are three stop codons - UAA, UAG and UGA - that encode the end of the protein. No amino acid is associated with them.
+![](https://cdn.kastatic.org/ka-perseus-images/15159da325dafc459053ad4b538ec6c2f0e3da88.png)
 
+### Open reading frame
+
+An open reading frame (ORF) is a continuous stretch of codons that may begin with a start codon and ends at a stop codon and it is the part of a reading frame that has the ability to be translated. When we look an mRNA, there are three ways, how it could be translated: starting in first position, second position or third position. Starting in fourth position is the same as starting in first position, only first amino acid wouldn't be translated.
+
+![](https://lh3.googleusercontent.com/proxy/QODH-EZnQcJcx9YZYKpRjhmL9Ad_MbO-9RtCXHDrpN2BiDNKBSXg4yJEd_-rtinUmBV5hwnrQh1n79kvjcxFUqFO0GqVpSl0IMvFzS-3B2mc7W8DnVhq3iGHL_RAHiXA_KdMRg=s0-d){:height="60%" width="60%"}
 
 ## Molecular process of translation
 
@@ -77,18 +82,40 @@ So far we were talking about one ribosome on one mRNA, but the reality is that m
 
 ## Quality control
 
-There are two main mechanisms of quality control associated with translation that cancan message the cell about problem with mRNA that is being actively translated. These two mechanisms will stop translation and send this mRNA to be destroyed and recycled. They kind of have the same idea, but they are kind of the opposite of each other.
+There are two main mechanisms of quality control associated with translation that can message the cell about problem with mRNA that is being actively translated. These two mechanisms will stop translation and send this mRNA to be destroyed and recycled. They have similar ideas, but they are kind of the opposite of each other.
 
 ### Nonsense-mediated decay
 
 Nonsense-mediated mRNA decay (NMD) is a surveillance pathway that exists in all eukaryotes. Its main function is to reduce errors in gene expression by eliminating mRNA transcripts that contain premature stop codons. Premature stop codon causes the protein to be shortened, which may or may not be functional, depending on the severity of what is not translated.
 
-Nonsense-mediated decay happens when through mutation (or some other change), an early termination (stop) codon gets created in the mRNA sequence. Translation mechanism can sense this and it targets this mRNA to be degraded and recycled.
-
 How can translation mechanism know that it reached premature stop codon that shouldn't be there? After the stop codon there is 3-prime UTR which could be as long as the as the coding sequence, so looking at length of remaining sequence is not helpful.
 
-What the ribosome does, other than creating a protein, is that it clears out all the RNA binding proteins that are bound on the mRNA. One of RNA binding proteins that are bound to mRNA is exon junction complex. When introns are removed from RNA, in process called splicing, this marker protein - exon junction complex - is placed there. Mature mRNA ready to be translated contains exon junction complex on each site where intron was removed. As the ribosome translates the mRNA, it strips the mRNA of these proteins. If some of these proteins have stayed on mRNA after the first round of translation then a nonsense-mediated decay is triggered because it means that the ribosome didn't reach all the way to the point where the last splicing happened.
+What the ribosome does, other than creating a protein, is that it clears out all the RNA binding proteins that are bound on the mRNA. One of RNA binding proteins that are bound to mRNA is exon junction complex. When introns are removed from RNA, in process called [splicing]({% post_url 2021-04-10-transcription %}#splicing), this marker protein - exon junction complex - is placed there. Mature mRNA ready to be translated contains exon junction complex on each site where intron was removed. As the ribosome translates the mRNA, it strips the mRNA of these proteins. If some of these proteins have stayed on mRNA after the first round of translation then a nonsense-mediated decay is triggered because it means that the ribosome didn't reach all the way to the point where the last splicing happened.
 
 ![](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fgb-2004-5-2-r8/MediaObjects/13059_2003_Article_812_Fig1_HTML.jpg)
 
 ### Nonstop-mediated decay
+
+When we have a mRNA with mutation in stop codon so it's not there anymore, ribosome is not released on position of stop codon but continues to translate the rest of mRNA, including 3-prime UTR and poly A tail, and then ribosome get stuck on the end of mRNA. This can be detected by a cell and mRNA is degraded.
+
+## Mutations
+
+Making copies of DNA and transcribing it into RNA is not a perfect process. There can be changes to genetic informations along the way and we call this changes mutations. There are tree main types of mutations: substitution, insertion and deletion.
+
+![](https://www.singerinstruments.com/wp-content/uploads/2015/03/genetic-mutations-fig1a.jpg)
+
+These changes are also propagated trough process of translation and they can affect resulting protein. Since multiple codons are encoding the same amino acid, we might get the same amino acid even after mutation, which is called silent mutation. We might get different amino acid or even stop codon instead of amino acid. Insertion and deletion are shifting reading frame what is resulting in change of multiple amino acids.
+
+![](https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/1094/2016/11/03164649/OSC_Microbio_11_05_EffMut.jpg){:height="80%" width="80%"}
+
+### Single nucleotide polymorphism
+
+Let's say we have an mRNA coding sequence that is going to make a protein. And let's say that there's a mutation that affects a single nucleotide, like a nucleotide changes by instead of being A, it's going to be a U now. We call this mutation a single nucleotide polymorphism (SNP). This mutation can possibly affect one amino acid - new codon is encoding for different amino acid. The worst outcome could be that it produces a stop codon. Then protein that's going to be produced will be shorter and it will trigger nonsense-mediated decay.
+
+![](https://www.whatisdna.net/wp-content/uploads/2016/11/SNP.png){:height="50%" width="50%"}
+
+### Frame shift
+
+Bigger changes can happen by an insertion or a deletion mutation - a single nucleotide or a few nucleotides are inserted or deleted. Insertion or deletion shift [the open reading frame]({% post_url 2021-04-30-translation %}#open-reading-frame) and every codon downstream from this insertion or deletion will be in a different open reading frame. Every amino acid being produced after that might be completely different.
+
+![](https://study.com/cimages/multimages/16/insertion_mutations1.png)
