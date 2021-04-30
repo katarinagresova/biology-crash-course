@@ -1,10 +1,10 @@
 ---
 toc: true
 layout: post
-description:
+description: Translation in another of processes of transferring genetic information in cell, following after transcription. During translation, a cell “reads” the information in a messenger RNA (mRNA) and uses it to build a protein.
 categories: []
 title: Translation
-image:
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Ribosome_mRNA_translation_en.svg/1200px-Ribosome_mRNA_translation_en.svg.png
 ---
 
 DNA is long double stranded molecule that is made out of 4 nucleotides - A, T, C, G. Messenger RNA (mRNA) is shorter single stranded molecule also made out 4 nucleotides, but this time it is A, U, C, G. This U (uracil) nucleotide is RNA equivalent to T (thymine) nucleotide in DNA. Proteins are also single stranded molecules but they are not made out of nucleotides. This is why process of producing protein based on RNA is called translation - we are translating into a completely different kind of chemical. Building blocks of proteins are called amino acids. There are 20 different amino acids that are used in living organisms that we know. There is many more amino acids as chemical molecules, but they're 20 that are used in in life.
@@ -37,7 +37,7 @@ On top of encoding for amino acids, there are also some regulatory signals encod
 
 ### Open reading frame
 
-An open reading frame (ORF) is a continuous stretch of codons that may begin with a start codon and ends at a stop codon and it is the part of a reading frame that has the ability to be translated. When we look an mRNA, there are three ways, how it could be translated: starting in first position, second position or third position. Starting in fourth position is the same as starting in first position, only first amino acid wouldn't be translated.
+An open reading frame (ORF) is a continuous stretch of codons that may begin with a start codon and ends at a stop codon and it is the part of a reading frame that has the ability to be translated. When we look an mRNA, there are three ways, how it could be translated: starting in first position, second position or third position. Starting in fourth position is the same as starting
 
 ![](https://lh3.googleusercontent.com/proxy/QODH-EZnQcJcx9YZYKpRjhmL9Ad_MbO-9RtCXHDrpN2BiDNKBSXg4yJEd_-rtinUmBV5hwnrQh1n79kvjcxFUqFO0GqVpSl0IMvFzS-3B2mc7W8DnVhq3iGHL_RAHiXA_KdMRg=s0-d){:height="60%" width="60%"}
 
@@ -116,6 +116,6 @@ Let's say we have an mRNA coding sequence that is going to make a protein. And l
 
 ### Frame shift
 
-Bigger changes can happen by an insertion or a deletion mutation - a single nucleotide or a few nucleotides are inserted or deleted. Insertion or deletion shift [the open reading frame]({% post_url 2021-04-30-translation %}#open-reading-frame) and every codon downstream from this insertion or deletion will be in a different open reading frame. Every amino acid being produced after that might be completely different.
+Bigger changes can happen by an insertion or a deletion mutation - a single nucleotide or a few nucleotides are inserted or deleted. Insertion or deletion of 1 nucleotide shifts everything that is downstream from the shift.
 
 ![](https://study.com/cimages/multimages/16/insertion_mutations1.png)
