@@ -4,4 +4,4 @@ title: About Me
 permalink: /about/
 ---
 
-This website is maintained by [Katarína Grešová](https://katarinagresova.github.io).
+<meta http-equiv="Refresh" content="0; url='https://katarinagresova.github.io/'" />
